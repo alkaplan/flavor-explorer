@@ -1,5 +1,6 @@
 import type { Recipe } from '../types';
 
+// Updated recipes with compound IDs from the new dataset
 export const recipes: Recipe[] = [
   {
     id: "strawberry",
@@ -8,13 +9,13 @@ export const recipes: Recipe[] = [
     category: "fruit",
     target_descriptors: {
       fruity: 0.9,
-      strawberry: 0.85,
+      berry: 0.85,
       sweet: 0.7,
       green: 0.3,
       creamy: 0.25,
-      caramel: 0.2
+      caramellic: 0.2
     },
-    key_compounds: ["8038", "62465", "21145", "7945", "11173"],
+    key_compounds: ["570574", "519382", "1068", "8738", "5281168"],
     reference_blend: null
   },
   {
@@ -26,12 +27,11 @@ export const recipes: Recipe[] = [
       coffee: 0.95,
       roasted: 0.85,
       nutty: 0.5,
-      caramel: 0.4,
+      caramellic: 0.4,
       earthy: 0.25,
-      smoky: 0.3,
-      chocolate: 0.2
+      smoky: 0.3
     },
-    key_compounds: ["7362", "8201", "7047", "31252", "6561"],
+    key_compounds: ["61808", "526618", "62131", "14505", "61634"],
     reference_blend: null
   },
   {
@@ -43,10 +43,10 @@ export const recipes: Recipe[] = [
       vanilla: 0.95,
       sweet: 0.85,
       creamy: 0.6,
-      caramel: 0.3,
+      caramellic: 0.3,
       woody: 0.15
     },
-    key_compounds: ["1183", "8467", "323", "8201"],
+    key_compounds: ["7410", "61007", "31244", "61155", "8738"],
     reference_blend: null
   },
   {
@@ -58,11 +58,11 @@ export const recipes: Recipe[] = [
       floral: 0.95,
       rose: 0.95,
       green: 0.3,
-      honey: 0.25,
+      fresh: 0.25,
       sweet: 0.3,
       citrus: 0.15
     },
-    key_compounds: ["10908", "8842", "1549778", "5280798", "6054"],
+    key_compounds: ["8842", "9017", "7778", "521238", "7738"],
     reference_blend: null
   },
   {
@@ -72,62 +72,28 @@ export const recipes: Recipe[] = [
     category: "fruit",
     target_descriptors: {
       citrus: 0.95,
-      lemon: 0.9,
       fresh: 0.7,
       green: 0.3,
       floral: 0.15,
       aldehydic: 0.2
     },
-    key_compounds: ["22311", "638011", "6549", "454"],
+    key_compounds: ["8842", "16441", "11527", "9017", "7778"],
     reference_blend: null
   },
   {
-    id: "cinnamon",
-    name: "Cinnamon",
-    description: "Warm Ceylon cinnamon bark with clove undertones",
-    category: "spice",
+    id: "peach",
+    name: "Peach",
+    description: "Juicy ripe peach with creamy lactonic notes",
+    category: "fruit",
     target_descriptors: {
-      spicy: 0.9,
-      cinnamon: 0.95,
-      warm: 0.75,
-      sweet: 0.4,
-      woody: 0.3,
-      clove: 0.25
+      peach: 0.95,
+      fruity: 0.85,
+      creamy: 0.5,
+      sweet: 0.6,
+      tropical: 0.3,
+      apricot: 0.4
     },
-    key_compounds: ["637511", "3314", "6549", "323", "4133"],
-    reference_blend: null
-  },
-  {
-    id: "chocolate",
-    name: "Chocolate",
-    description: "Dark chocolate with cocoa depth and roasted notes",
-    category: "roasted",
-    target_descriptors: {
-      chocolate: 0.9,
-      roasted: 0.7,
-      nutty: 0.45,
-      sweet: 0.5,
-      caramel: 0.3,
-      bitter: 0.2,
-      vanilla: 0.2
-    },
-    key_compounds: ["31252", "1183", "8294", "4133", "8201"],
-    reference_blend: null
-  },
-  {
-    id: "fresh-bread",
-    name: "Fresh Bread",
-    description: "Warm, yeasty, fresh-baked bread",
-    category: "roasted",
-    target_descriptors: {
-      bready: 0.9,
-      yeasty: 0.7,
-      malty: 0.6,
-      toasted: 0.5,
-      butter: 0.35,
-      sweet: 0.25
-    },
-    key_compounds: ["31252", "8294", "8201", "1068"],
+    key_compounds: ["109332", "2733977", "6437428", "7778", "7704"],
     reference_blend: null
   },
   {
@@ -143,23 +109,7 @@ export const recipes: Recipe[] = [
       creamy: 0.25,
       tropical: 0.2
     },
-    key_compounds: ["31265", "11173", "8038"],
-    reference_blend: null
-  },
-  {
-    id: "peach",
-    name: "Peach",
-    description: "Juicy ripe peach with creamy lactonic notes",
-    category: "fruit",
-    target_descriptors: {
-      peach: 0.95,
-      fruity: 0.85,
-      creamy: 0.5,
-      sweet: 0.6,
-      tropical: 0.3,
-      coconut: 0.2
-    },
-    key_compounds: ["7945", "12179", "6569", "8038"],
+    key_compounds: ["12278", "8129", "5281168", "7983", "7797"],
     reference_blend: null
   },
   {
@@ -175,7 +125,52 @@ export const recipes: Recipe[] = [
       sweet: 0.2,
       green: 0.15
     },
-    key_compounds: ["16666", "6986"],
+    key_compounds: ["14896", "16441", "61953", "521238", "30248"],
+    reference_blend: null
+  },
+  {
+    id: "apple",
+    name: "Apple",
+    description: "Crisp green apple with subtle sweetness",
+    category: "fruit",
+    target_descriptors: {
+      apple: 0.95,
+      fruity: 0.85,
+      green: 0.5,
+      fresh: 0.6,
+      sweet: 0.4
+    },
+    key_compounds: ["31289", "5281168", "8738", "527", "61312"],
+    reference_blend: null
+  },
+  {
+    id: "coconut",
+    name: "Coconut",
+    description: "Creamy tropical coconut",
+    category: "fruit",
+    target_descriptors: {
+      coconut: 0.95,
+      creamy: 0.8,
+      sweet: 0.6,
+      tropical: 0.5,
+      milky: 0.3
+    },
+    key_compounds: ["7704", "8738", "6549", "7170", "15336"],
+    reference_blend: null
+  },
+  {
+    id: "honey",
+    name: "Honey",
+    description: "Golden floral honey",
+    category: "sweet",
+    target_descriptors: {
+      honey: 0.95,
+      sweet: 0.85,
+      floral: 0.4,
+      waxy: 0.3,
+      warm: 0.25
+    },
+    key_compounds: ["7410", "8842", "6549", "527", "8092"],
     reference_blend: null
   },
   {
@@ -186,44 +181,11 @@ export const recipes: Recipe[] = [
     target_descriptors: {
       grape: 0.95,
       fruity: 0.8,
-      concord: 0.85,
       floral: 0.35,
       sweet: 0.5,
       candy: 0.3
     },
-    key_compounds: ["7519", "8038", "8048"],
-    reference_blend: null
-  },
-  {
-    id: "almond",
-    name: "Almond",
-    description: "Sweet marzipan-like almond",
-    category: "sweet",
-    target_descriptors: {
-      almond: 0.95,
-      marzipan: 0.8,
-      sweet: 0.7,
-      cherry: 0.3,
-      nutty: 0.4,
-      vanilla: 0.2
-    },
-    key_compounds: ["4133", "1183", "323"],
-    reference_blend: null
-  },
-  {
-    id: "jasmine",
-    name: "Jasmine",
-    description: "Heady jasmine absolute character",
-    category: "floral",
-    target_descriptors: {
-      floral: 0.95,
-      jasmine: 0.9,
-      sweet: 0.4,
-      green: 0.25,
-      honey: 0.3,
-      animalic: 0.15
-    },
-    key_compounds: ["798", "6054", "6549", "8842"],
+    key_compounds: ["7410", "527", "31266", "8842", "7983"],
     reference_blend: null
   },
   {
@@ -236,25 +198,54 @@ export const recipes: Recipe[] = [
       creamy: 0.85,
       sweet: 0.3,
       milky: 0.4,
-      caramel: 0.2
+      fatty: 0.5
     },
-    key_compounds: ["8201", "6569"],
+    key_compounds: ["8738", "1068", "7704", "31289", "8129"],
     reference_blend: null
   },
   {
-    id: "orange",
-    name: "Orange",
-    description: "Fresh-squeezed orange juice",
+    id: "tropical",
+    name: "Tropical Blend",
+    description: "Mixed tropical fruits - pineapple, mango, passion fruit",
     category: "fruit",
     target_descriptors: {
-      citrus: 0.9,
-      orange: 0.95,
-      fresh: 0.65,
-      sweet: 0.5,
-      aldehydic: 0.3,
-      green: 0.15
+      tropical: 0.95,
+      fruity: 0.9,
+      sweet: 0.6,
+      pineapple: 0.7,
+      green: 0.2
     },
-    key_compounds: ["22311", "454", "6549"],
+    key_compounds: ["7797", "7983", "12278", "109332", "5281168"],
+    reference_blend: null
+  },
+  {
+    id: "herbal",
+    name: "Herbal Garden",
+    description: "Fresh herbal notes - basil, thyme, rosemary",
+    category: "other",
+    target_descriptors: {
+      herbal: 0.95,
+      green: 0.8,
+      fresh: 0.7,
+      spicy: 0.3,
+      woody: 0.25
+    },
+    key_compounds: ["6549", "14896", "16441", "8842", "30248"],
+    reference_blend: null
+  },
+  {
+    id: "caramel",
+    name: "Caramel",
+    description: "Rich buttery caramel with burnt sugar notes",
+    category: "sweet",
+    target_descriptors: {
+      caramellic: 0.95,
+      sweet: 0.9,
+      butter: 0.5,
+      burnt: 0.3,
+      creamy: 0.4
+    },
+    key_compounds: ["61634", "14505", "8738", "7410", "31244"],
     reference_blend: null
   }
 ];
