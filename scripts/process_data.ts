@@ -111,6 +111,28 @@ function normalizeDescriptor(desc: string): string {
     .replace(/^_|_$/g, '');
 }
 
+function isCasNumber(str: string): boolean {
+  // CAS numbers are in format: digits-digits-digit (e.g., 4077-47-8)
+  return /^\d+-\d+-\d$/.test(str);
+}
+
+function getBestName(mol: GoodScentsMolecule | undefined, cid: string): string {
+  if (!mol) return `Compound ${cid}`;
+
+  // Prefer actual name if it's not a CAS number
+  if (mol.name && !isCasNumber(mol.name)) {
+    return mol.name;
+  }
+
+  // Fall back to IUPAC name
+  if (mol.IUPACName && mol.IUPACName.length > 0) {
+    return mol.IUPACName;
+  }
+
+  // Last resort: CAS number or generic
+  return mol.name || `Compound ${cid}`;
+}
+
 function inferChemicalClass(smiles: string, name: string): string {
   const nameLower = name.toLowerCase();
 
@@ -253,10 +275,13 @@ async function main() {
       }
     });
 
+    // Extract CAS number if present in name field
+    const cas = mol?.name && isCasNumber(mol.name) ? mol.name : '';
+
     return {
       id: data.cid!,
-      name: mol?.name || `Compound ${data.cid}`,
-      cas: '', // Would need separate lookup
+      name: getBestName(mol, data.cid!),
+      cas,
       smiles: smiles,
       descriptors,
       threshold_ppm: null,

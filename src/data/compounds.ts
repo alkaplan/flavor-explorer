@@ -57,8 +57,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "61325",
-    "name": "4077-47-8",
-    "cas": "",
+    "name": "4-methoxy-2,5-dimethylfuran-3-one",
+    "cas": "4077-47-8",
     "smiles": "CC1C(=O)C(=C(O1)C)OC",
     "descriptors": {
       "musty": 0.95,
@@ -108,8 +108,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "2733977",
-    "name": "136954-25-1",
-    "cas": "",
+    "name": "3-acetylsulfanylhexyl acetate",
+    "cas": "136954-25-1",
     "smiles": "CCCC(CCOC(=O)C)SC(=O)C",
     "descriptors": {
       "apricot": 0.95,
@@ -162,8 +162,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "95594",
-    "name": "41496-43-9",
-    "cas": "",
+    "name": "2-methyl-3-(4-methylphenyl)propanal",
+    "cas": "41496-43-9",
     "smiles": "CC1=CC=C(C=C1)CC(C)C=O",
     "descriptors": {
       "orange": 1,
@@ -381,8 +381,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "5369371",
-    "name": "18492-65-4",
-    "cas": "",
+    "name": "(Z)-7,7-diethoxyhept-3-ene",
+    "cas": "18492-65-4",
     "smiles": "CC/C=C\\CCC(OCC)OCC",
     "descriptors": {
       "creamy": 1,
@@ -431,8 +431,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "100930",
-    "name": "59021-03-3",
-    "cas": "",
+    "name": "2-(methylsulfanylmethyl)pyrazine",
+    "cas": "59021-03-3",
     "smiles": "CSCC1=NC=CN=C1",
     "descriptors": {
       "musty": 0.9,
@@ -1351,8 +1351,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "285097",
-    "name": "7011-83-8",
-    "cas": "",
+    "name": "5-hexyl-5-methyloxolan-2-one",
+    "cas": "7011-83-8",
     "smiles": "CCCCCCC1(CCC(=O)O1)C",
     "descriptors": {
       "creamy": 1,
@@ -1377,8 +1377,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "11332852",
-    "name": "70851-61-5",
-    "cas": "",
+    "name": "5-[(Z)-hex-3-enyl]-5-methyloxolan-2-one",
+    "cas": "70851-61-5",
     "smiles": "CC/C=C\\CCC1(CCC(=O)O1)C",
     "descriptors": {
       "creamy": 0.9,
@@ -1989,8 +1989,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "8792",
-    "name": "140-26-1",
-    "cas": "",
+    "name": "2-phenylethyl 3-methylbutanoate",
+    "cas": "140-26-1",
     "smiles": "CC(C)CC(=O)OCCC1=CC=CC=C1",
     "descriptors": {
       "apricot": 0.95,
@@ -2018,8 +2018,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "62346",
-    "name": "495-62-5",
-    "cas": "",
+    "name": "1-methyl-4-(6-methylhept-5-en-2-ylidene)cyclohexene",
+    "cas": "495-62-5",
     "smiles": "CC1=CCC(=C(C)CCC=C(C)C)CC1",
     "descriptors": {
       "spicy": 1,
@@ -2229,8 +2229,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "20446",
-    "name": "4411-89-6",
-    "cas": "",
+    "name": "2-phenylbut-2-enal",
+    "cas": "4411-89-6",
     "smiles": "CC=C(C=O)C1=CC=CC=C1",
     "descriptors": {
       "musty": 0.95,
@@ -2332,8 +2332,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "5364778",
-    "name": "27829-72-7",
-    "cas": "",
+    "name": "ethyl (E)-hex-2-enoate",
+    "cas": "27829-72-7",
     "smiles": "CCC/C=C/C(=O)OCC",
     "descriptors": {
       "orange": 1,
@@ -2480,8 +2480,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "71544",
-    "name": "68345-22-2",
-    "cas": "",
+    "name": "2,2-bis(2-methylpropoxy)ethylbenzene",
+    "cas": "68345-22-2",
     "smiles": "CC(C)COC(CC1=CC=CC=C1)OCC(C)C",
     "descriptors": {
       "sweet": 0.9,
@@ -3013,8 +3013,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "5367698",
-    "name": "42436-07-7",
-    "cas": "",
+    "name": "[(Z)-hex-3-enyl] 2-phenylacetate",
+    "cas": "42436-07-7",
     "smiles": "CC/C=C\\CCOC(=O)CC1=CC=CC=C1",
     "descriptors": {
       "melon": 0.95,
@@ -3497,8 +3497,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "24915",
-    "name": "10094-34-5",
-    "cas": "",
+    "name": "(2-methyl-1-phenylpropan-2-yl) butanoate",
+    "cas": "10094-34-5",
     "smiles": "CCCC(=O)OC(C)(C)CC1=CC=CC=C1",
     "descriptors": {
       "spicy": 1,
@@ -3630,8 +3630,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "61450",
-    "name": "10031-90-0",
-    "cas": "",
+    "name": "ethyl 3-(furan-2-yl)propanoate",
+    "cas": "10031-90-0",
     "smiles": "CCOC(=O)CCC1=CC=CO1",
     "descriptors": {
       "ripe": 0.9,
@@ -4061,8 +4061,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "605629",
-    "name": "3549-23-3",
-    "cas": "",
+    "name": "methyl 2-(4-tert-butylphenyl)acetate",
+    "cas": "3549-23-3",
     "smiles": "CC(C)(C)C1=CC=C(C=C1)CC(=O)OC",
     "descriptors": {
       "creamy": 1,
@@ -4411,8 +4411,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "61446",
-    "name": "10031-71-7",
-    "cas": "",
+    "name": "(2-methyl-4-phenylbutan-2-yl) 2-methylpropanoate",
+    "cas": "10031-71-7",
     "smiles": "CC(C)C(=O)OC(C)(C)CCC1=CC=CC=C1",
     "descriptors": {
       "powdery": 1,
@@ -4606,8 +4606,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "196435",
-    "name": "65588-69-4",
-    "cas": "",
+    "name": "6,6,9a-trimethyl-1,2,3a,4,5,5a,7,8,9,9b-decahydrobenzo[e][1]benzofuran",
+    "cas": "65588-69-4",
     "smiles": "CC1(CCCC2(C1CCC3C2CCO3)C)C",
     "descriptors": {
       "woody": 0.9,
@@ -4855,8 +4855,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "61199",
-    "name": "698-10-2",
-    "cas": "",
+    "name": "2-ethyl-4-hydroxy-3-methyl-2H-furan-5-one",
+    "cas": "698-10-2",
     "smiles": "CCC1C(=C(C(=O)O1)O)C",
     "descriptors": {
       "sweet": 0.9,
@@ -4875,8 +4875,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "522514",
-    "name": "7392-19-0",
-    "cas": "",
+    "name": "2-ethenyl-2,6,6-trimethyloxane",
+    "cas": "7392-19-0",
     "smiles": "CC1(CCCC(O1)(C)C=C)C",
     "descriptors": {
       "sweet": 1,
@@ -5292,8 +5292,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "12777",
-    "name": "698-76-0",
-    "cas": "",
+    "name": "6-propyloxan-2-one",
+    "cas": "698-76-0",
     "smiles": "CCCC1CCCC(=O)O1",
     "descriptors": {
       "creamy": 1,
@@ -5455,8 +5455,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "16220104",
-    "name": "84561-41-1",
-    "cas": "",
+    "name": "2-ethyl-3,5-dimethylpyrazine;3-ethyl-2,5-dimethylpyrazine",
+    "cas": "84561-41-1",
     "smiles": "CCC1=NC(=CN=C1C)C.CCC1=NC=C(N=C1C)C",
     "descriptors": {
       "musty": 0.85,
@@ -5670,8 +5670,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "5374527",
-    "name": "23726-91-2",
-    "cas": "",
+    "name": "(E)-1-(2,6,6-trimethylcyclohexen-1-yl)but-2-en-1-one",
+    "cas": "23726-91-2",
     "smiles": "C/C=C/C(=O)C1=C(CCCC1(C)C)C",
     "descriptors": {
       "honey": 1,
@@ -5859,8 +5859,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "442368",
-    "name": "25037-13-0",
-    "cas": "",
+    "name": "3,7,11-trimethyldodeca-1,3,6,10-tetraene",
+    "cas": "25037-13-0",
     "smiles": "CC(=CCCC(=CCC=C(C)C=C)C)C",
     "descriptors": {
       "herbal": 0.9,
@@ -5993,8 +5993,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "5352463",
-    "name": "53398-80-4",
-    "cas": "",
+    "name": "[(E)-hex-2-enyl] propanoate",
+    "cas": "53398-80-4",
     "smiles": "CCC/C=C/COC(=O)CC",
     "descriptors": {
       "creamy": 1,
@@ -6442,8 +6442,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "4682590",
-    "name": "23550-40-5",
-    "cas": "",
+    "name": "4-methyl-4-methylsulfanylpentan-2-one",
+    "cas": "23550-40-5",
     "smiles": "CC(=O)CC(C)(C)SC",
     "descriptors": {
       "musty": 1,
@@ -7083,8 +7083,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "162481",
-    "name": "41724-19-0",
-    "cas": "",
+    "name": "5-methyltricyclo[6.2.1.02,7]undecan-4-one",
+    "cas": "41724-19-0",
     "smiles": "CC1CC2C3CCC(C3)C2CC1=O",
     "descriptors": {
       "raspberry": 1,
@@ -7502,8 +7502,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "3034267",
-    "name": "111753-62-9",
-    "cas": "",
+    "name": "methyl 2-[[3-(4-methoxyphenyl)-2-methylpropylidene]amino]benzoate",
+    "cas": "111753-62-9",
     "smiles": "CC(CC1=CC=C(C=C1)OC)C=NC2=CC=CC=C2C(=O)OC",
     "descriptors": {
       "spicy": 1,
@@ -7601,8 +7601,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "110914",
-    "name": "6658-48-6",
-    "cas": "",
+    "name": "2-methyl-3-[4-(2-methylpropyl)phenyl]propanal",
+    "cas": "6658-48-6",
     "smiles": "CC(C)CC1=CC=C(C=C1)CC(C)C=O",
     "descriptors": {
       "oily": 1,
@@ -7648,8 +7648,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "61006",
-    "name": "104-09-6",
-    "cas": "",
+    "name": "2-(4-methylphenyl)acetaldehyde",
+    "cas": "104-09-6",
     "smiles": "CC1=CC=C(C=C1)CC=O",
     "descriptors": {
       "phenolic": 0.95,
@@ -8140,8 +8140,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "62374",
-    "name": "1125-21-9",
-    "cas": "",
+    "name": "2,6,6-trimethylcyclohex-2-ene-1,4-dione",
+    "cas": "1125-21-9",
     "smiles": "CC1=CC(=O)CC(C1=O)(C)C",
     "descriptors": {
       "musty": 0.9,
@@ -8207,8 +8207,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "31209",
-    "name": "122-40-7",
-    "cas": "",
+    "name": "2-benzylideneheptanal",
+    "cas": "122-40-7",
     "smiles": "CCCCCC(=CC1=CC=CC=C1)C=O",
     "descriptors": {
       "sweet": 1,
@@ -8234,8 +8234,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "5365069",
-    "name": "53398-85-9",
-    "cas": "",
+    "name": "[(Z)-hex-3-enyl] 2-methylbutanoate",
+    "cas": "53398-85-9",
     "smiles": "CC/C=C\\CCOC(=O)C(C)CC",
     "descriptors": {
       "sweet": 1,
@@ -8753,8 +8753,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "107068",
-    "name": "68039-39-4",
-    "cas": "",
+    "name": "8-tricyclo[5.2.1.02,6]dec-3-enyl 2-methylpropanoate",
+    "cas": "68039-39-4",
     "smiles": "CC(C)C(=O)OC1CC2CC1C3C2C=CC3",
     "descriptors": {
       "sweet": 0.95,
@@ -9218,8 +9218,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "106756",
-    "name": "67663-01-8",
-    "cas": "",
+    "name": "5-hexyl-4-methyloxolan-2-one",
+    "cas": "67663-01-8",
     "smiles": "CCCCCCC1C(CC(=O)O1)C",
     "descriptors": {
       "peach": 0.95,
@@ -9424,8 +9424,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "520098",
-    "name": "24168-70-5",
-    "cas": "",
+    "name": "2-butan-2-yl-3-methoxypyrazine",
+    "cas": "24168-70-5",
     "smiles": "CCC(C)C1=NC=CN=C1OC",
     "descriptors": {
       "musty": 0.95,
@@ -9544,8 +9544,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "27866",
-    "name": "16409-43-1",
-    "cas": "",
+    "name": "4-methyl-2-(2-methylprop-1-enyl)oxane",
+    "cas": "16409-43-1",
     "smiles": "CC1CCOC(C1)C=C(C)C",
     "descriptors": {
       "spicy": 0.95,
@@ -9615,8 +9615,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "90720",
-    "name": "22030-19-9",
-    "cas": "",
+    "name": "4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-yl acetate",
+    "cas": "22030-19-9",
     "smiles": "CC1=C(C(CCC1)(C)C)C=CC(C)OC(=O)C",
     "descriptors": {
       "raspberry": 1,
@@ -9639,8 +9639,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "7600",
-    "name": "102-19-2",
-    "cas": "",
+    "name": "3-methylbutyl 2-phenylacetate",
+    "cas": "102-19-2",
     "smiles": "CC(C)CCOC(=O)CC1=CC=CC=C1",
     "descriptors": {
       "sweet": 0.9,
@@ -9733,8 +9733,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "17617",
-    "name": "2705-87-5",
-    "cas": "",
+    "name": "prop-2-enyl 3-cyclohexylpropanoate",
+    "cas": "2705-87-5",
     "smiles": "C=CCOC(=O)CCC1CCCCC1",
     "descriptors": {
       "sweet": 0.95,
@@ -9901,8 +9901,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "111727",
-    "name": "68901-15-5",
-    "cas": "",
+    "name": "prop-2-enyl 2-cyclohexyloxyacetate",
+    "cas": "68901-15-5",
     "smiles": "C=CCOC(=O)COC1CCCCC1",
     "descriptors": {
       "spicy": 0.95,
@@ -10118,8 +10118,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "120101",
-    "name": "28940-11-6",
-    "cas": "",
+    "name": "7-methyl-1,5-benzodioxepin-3-one",
+    "cas": "28940-11-6",
     "smiles": "CC1=CC2=C(C=C1)OCC(=O)CO2",
     "descriptors": {
       "clean": 1,
@@ -10513,8 +10513,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "27209",
-    "name": "15356-74-8",
-    "cas": "",
+    "name": "4,4,7a-trimethyl-6,7-dihydro-5H-1-benzofuran-2-one",
+    "cas": "15356-74-8",
     "smiles": "CC1(CCCC2(C1=CC(=O)O2)C)C",
     "descriptors": {
       "grape": 1,
@@ -10798,8 +10798,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "162452",
-    "name": "41199-19-3",
-    "cas": "",
+    "name": "2,5,5-trimethyl-1,3,4,4a,6,7-hexahydronaphthalen-2-ol",
+    "cas": "41199-19-3",
     "smiles": "CC1(CCC=C2C1CCC(C2)(C)O)C",
     "descriptors": {
       "musty": 0.95,
@@ -11187,8 +11187,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "16070752",
-    "name": "117933-89-8",
-    "cas": "",
+    "name": "5-butan-2-yl-2-(2,4-dimethylcyclohex-3-en-1-yl)-5-methyl-1,3-dioxane",
+    "cas": "117933-89-8",
     "smiles": "CCC(C)C1(COC(OC1)C2CCC(=CC2C)C)C",
     "descriptors": {
       "woody": 1,
@@ -11232,8 +11232,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "61665",
-    "name": "13679-86-2",
-    "cas": "",
+    "name": "2-ethenyl-2-methyl-5-prop-1-en-2-yloxolane",
+    "cas": "13679-86-2",
     "smiles": "CC(=C)C1CCC(O1)(C)C=C",
     "descriptors": {
       "phenolic": 1,
@@ -11255,8 +11255,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "538506",
-    "name": "7779-67-1",
-    "cas": "",
+    "name": "3-methylbutyl 3-(furan-2-yl)propanoate",
+    "cas": "7779-67-1",
     "smiles": "CC(C)CCOC(=O)CCC1=CC=CO1",
     "descriptors": {
       "sweet": 1,
@@ -11417,8 +11417,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "166246",
-    "name": "72175-33-8",
-    "cas": "",
+    "name": "methyl 3-(2-bicyclo[2.2.1]hept-5-enyl)-3-methyloxirane-2-carboxylate",
+    "cas": "72175-33-8",
     "smiles": "CC1(C(O1)C(=O)OC)C2CC3CC2C=C3",
     "descriptors": {
       "melon": 1,
@@ -11440,8 +11440,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "15031854",
-    "name": "142653-61-0",
-    "cas": "",
+    "name": "3-[(Z)-hex-3-enoxy]propanenitrile",
+    "cas": "142653-61-0",
     "smiles": "CC/C=C\\CCOCCC#N",
     "descriptors": {
       "oily": 1,
@@ -12013,8 +12013,8 @@ export const compounds: Compound[] = [
   },
   {
     "id": "62752",
-    "name": "21835-01-8",
-    "cas": "",
+    "name": "3-ethyl-2-hydroxycyclopent-2-en-1-one",
+    "cas": "21835-01-8",
     "smiles": "CCC1=C(C(=O)CC1)O",
     "descriptors": {
       "sweet": 0.95,
